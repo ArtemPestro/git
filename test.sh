@@ -1,9 +1,10 @@
 #!/bin/bash
 
 echo 'Hello, world!'
-echo 'Привет, мир!'
+echo 'Привет всем!'
 git add test.sh
-git commit -m 'Ветка dev, дубль 2'
-git push origin dev2
+git add main.sh
+git commit -m 'Симуляция конфликта'
+git push origin main
 echo 'Subscribe me: https://www.github.com/ArtemPestro'
 echo 'Время просыпаться, Нео.'
