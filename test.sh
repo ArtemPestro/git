@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
-#Subscribe me: https://www.github.com/ArtemPestro
+echo 'Hello, world!'
 git add test.sh
-git commit -m 'Выполнение третьего задания в процессе'
-git push origin dev
+git commit -m 'Ветка dev, дубль 2'
+git push origin dev2
+echo 'Subscribe me: https://www.github.com/ArtemPestro'
